@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Monisha J</title>
+    <link rel="stylesheet" href="personalportfolio.css">
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Monisha J</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I'm a passionate web developer creating innovative solutions.</p>
+        <a href="#about" class="btn">Learn More</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Hello! I'm Monisha J, a full-stack developer. I specialize in modern technologies like HTML, CSS, JavaScript, and React.</p>
+                <p>Outside of coding, I enjoy hiking and reading sci-fi novels. Let's collaborate on your next project!</p>
+            </div>
+            <div class="about-image">
+                <img src="Snapchat-1492078559.jpg">
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <h3>HTML & CSS</h3>
+                <p>Expert in semantic markup and responsive design.</p>
+            </div>
+            <div class="skill-item">
+                <h3>JavaScript</h3>
+                <p>Proficient in ES6+ and frameworks like React.</p>
+            </div>
+            <div class="skill-item">
+                <h3>Node.js</h3>
+                <p>Backend development with Express and APIs.</p>
+            </div>
+            <div class="skill-item">
+                <h3>C Language</h3>
+                <p>Strong foundation in procedural programming with efficient problem-solving using C.</p>
+            </div>
+            <div class="skill-item">
+                <h3>C++ Language</h3>
+                <p>Skilled in object-oriented programming and efficient algorithm design using C++.</p>
+            </div>
+             <div class="skill-item">
+                <h3>Python</h3>
+                <p>Proficient in writing clean, versatile, and automation-ready code using Python.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="computer-security-with-login-password-padlock_107791-16191.jpg">
+                <div class="project-content">
+                    <h3>Password Generator</h3>
+                    <p>A program that automatically creates strong and secure passwords using random characters using python.</p>
+                    <div class="project-links">
+                        <a href="#">Live Demo</a>
+                        <a href="https://github.com/Monisha-31/CODSOFT/blob/86c8f9b6b8c34a30de618e35734fc29622bb4590/password%20generator.py">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="program-to-make-a-simple-calculator-1024x512.webp">
+                <div class="project-content">
+                    <h3>Simple Calculator</h3>
+                    <p>A Python program that performs basic arithmetic operations like addition, subtraction, multiplication, and division.</p>
+                    <div class="project-links">
+                        <a href="#">Live Demo</a>
+                        <a href="https://github.com/Monisha-31/CODSOFT/blob/86c8f9b6b8c34a30de618e35734fc29622bb4590/simple%20calculator.py">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="rock-paper-scissor-interaction.jpg" alt="Rock Paper Scissor game UI" class="project-image">
+                <div class="project-content">
+                    <h3>Rock-Paper-Scissor</h3>
+                    <p>A Python program that simulates the classic Rock, Paper, Scissors game between the user and the computer.</p>
+                    <div class="project-links">
+                        <a href="#">Live Demo</a>
+                        <a href="https://github.com/Monisha-31/CODSOFT/blob/86c8f9b6b8c34a30de618e35734fc29622bb4590/rock%20paper%20scissor.py">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+     <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <div class="info-grid">
+                <div class="info-item">
+                    <strong>Name:</strong> Monisha J
+                </div>
+                <div class="info-item">
+                    <strong>Email:</strong> <a href="monisha@gmail.com">monisha@gmail.com</a>
+                </div>
+                <div class="info-item">
+                    <strong>Phone:</strong> +91 8248956959
+                </div>
+                <div class="info-item">
+                    <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/monisha-j-473086355" target="_blank">linkedin.com/in/monisha-j</a>
+                </div>
+                <div class="info-item">
+                    <strong>GitHub:</strong> <a href="https://github.com/Monisha-31" target="_blank">github.com/Monisha</a>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Monisha J. All rights reserved. | Email: monisha@gmail.com</p>
+    </footer>
+
+    <script>
+
+        // Smooth scrolling for nav links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+   
